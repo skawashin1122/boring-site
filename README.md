@@ -71,7 +71,7 @@ python3 -m http.server 8123
 
 - [ ] `index.html` の `<link rel="canonical">` を実際のドメインに変更
 - [ ] `og:image` の URL をサイト公開ドメインに合わせて調整
-- [ ] Googleマップの埋め込みが正しい位置を指しているか公開前に確認
+- [x] Googleマップの埋め込みが正しい位置を指しているか公開前に確認
 
 ## 実装済みの機能
 
