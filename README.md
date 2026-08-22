@@ -56,7 +56,7 @@ python3 -m http.server 8123
 ### 画像
 
 - [x] favicon（`images/favicon.ico` 設定済み）
-- [x] OGP画像（`images/ogp.jpg` 設定済み）
+- [x] OGP画像（`images/ogp.png` 設定済み）
 - [ ] ヒーロー背景写真（任意）
 
 詳細は `images/README.txt` を参照してください。
