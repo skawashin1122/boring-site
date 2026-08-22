@@ -3,6 +3,15 @@
 外部ライブラリに依存しない HTML / CSS / Vanilla JavaScript 製の
 コーポレートサイトです（Google Fonts のみ利用）。
 
+## 公開サイト
+
+GitHub Pages で公開しています。
+
+**https://skawashin1122.github.io/boring-site/**
+
+`main` ブランチの内容がそのまま反映されます。`main` に push すると
+数分以内に自動で再デプロイされます。
+
 ## ファイル構成
 
 ```
