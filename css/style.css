@@ -392,14 +392,25 @@ section {
   position: relative;
   min-height: 80vh;
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
-  background:
-    linear-gradient(180deg, rgba(8, 43, 90, 0.55) 0%, rgba(8, 43, 90, 0.15) 40%, rgba(8, 43, 90, 0.75) 100%),
-    url("../images/ogp.png") center / cover no-repeat;
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-blue) 100%);
   color: var(--color-white);
   overflow: hidden;
   text-align: center;
+  /* 背景写真に差し替える場合はここ (background-image を追加) */
+}
+
+.hero-deco {
+  position: absolute;
+  inset: auto 0 0 0;
+  line-height: 0;
+}
+
+.hero-deco svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .hero-inner {
@@ -853,7 +864,7 @@ section {
 
 /* ---------- Print ---------- */
 @media print {
-  .site-header, .nav-overlay, .to-top, .hamburger { display: none; }
+  .site-header, .nav-overlay, .to-top, .hamburger, .hero-deco { display: none; }
   section { padding-block: var(--space-lg); }
   a { text-decoration: underline; }
 }
