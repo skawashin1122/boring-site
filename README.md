@@ -57,7 +57,9 @@ python3 -m http.server 8123
 
 - [x] favicon（`images/favicon.ico` 設定済み）
 - [x] OGP画像（`images/ogp.png` 設定済み）
-- [ ] ヒーロー背景写真（任意）
+- [ ] ヒーロー背景写真（任意、現状はグラデーション背景のまま）
+- [x] ロゴマーク（`images/logo.jpg`、ヘッダーに設置済み）
+- [x] 現場写真2枚（`images/photo01.jpg`, `images/photo02.jpg`、「現場の様子」セクションに設置済み）
 
 詳細は `images/README.txt` を参照してください。
 
